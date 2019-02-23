@@ -1,13 +1,15 @@
+import { UPDATE } from "../../constants/actionTypes";
+
 const initialState = {
-  testing: "React"
+  newupdate: false
 };
 
 const reducer = (state = initialState, action) => {
   switch (action.type) {
-    case "test": {
+    case UPDATE.default: {
       return {
         ...state,
-        testing: action.payload
+        newupdate: action.payload
       };
     }
     default: {

@@ -1,4 +1,4 @@
 import { combineReducers } from "redux";
-import sample from "./sample";
+import update from "./update";
 
-export default combineReducers({ sample });
+export default combineReducers({ update });

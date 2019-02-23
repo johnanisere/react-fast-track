@@ -1,7 +1,7 @@
 import React, { Suspense, lazy } from "react";
 import { Route, Switch } from "react-router-dom";
 
-import Loading from "../../containers/loading";
+import Loading from "../../components/spinner";
 
 const Home = lazy(() => import("../../containers/app"));
 
