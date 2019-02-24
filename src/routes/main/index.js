@@ -3,7 +3,7 @@ import { Route, Switch } from "react-router-dom";
 
 import Loading from "../../components/spinner";
 
-const Home = lazy(() => import("../../containers/app"));
+const Home = lazy(() => import("../../containers/home"));
 
 const App = () => (
   <Suspense fallback={<Loading />}>
