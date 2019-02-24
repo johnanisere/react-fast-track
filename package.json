@@ -1,6 +1,7 @@
 {
   "name": "react-fast-track",
   "version": "1.0.0",
+  "private": true,
   "dependencies": {
     "@bugsnag/js": "^6.0.0",
     "@bugsnag/plugin-react": "^6.0.0",
