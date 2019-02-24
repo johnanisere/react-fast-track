@@ -1,6 +1,6 @@
 {
-  "name": "gallery",
-  "version": "0.1.0",
+  "name": "react-fast-track",
+  "version": "1.0.0",
   "private": true,
   "dependencies": {
     "@bugsnag/js": "^6.0.0",
